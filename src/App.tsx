@@ -112,7 +112,7 @@ const Glizzy: React.FC<GlizzyProps> = ({
               setter((counter) => 0);
             }}
           >
-            Compute
+            🌭 Compute 🌭
           </button>
         </div>
       </div>
@@ -129,9 +129,9 @@ function App() {
   return (
     <>
       <div className="border-4 p-5 border-indigo-500/100 ...">
-        <h3>Glizzy Stash: {total}</h3>
+        <h3>Glizzy 🌭 Stash: {total}</h3>
         <Glizzy
-          title="Acquired Glizzy's:"
+          title="Acquired Glizzy's 🌭:"
           counter={add}
           setter={setAdd}
           total={total}
@@ -140,7 +140,7 @@ function App() {
           options={[0, 1, 2, 3, 4, 5]}
         />
         <Glizzy
-          title="Consumed Glizzy's:"
+          title="Consumed Glizzy's 🌭:"
           counter={sub}
           setter={setSub}
           total={total}
@@ -149,7 +149,7 @@ function App() {
           options={[0, 1, 2, 3, 4, 5]}
         />
         <Glizzy
-          title="Glizzy Division:"
+          title="Glizzy Division 🌭:"
           counter={div}
           setter={setDiv}
           total={total}
@@ -158,7 +158,7 @@ function App() {
           options={[0, 1, 2, 3, 4, 6, 7, 8]}
         />
         <Glizzy
-          title="Glizzy Multiplication:"
+          title="Glizzy Multiplication 🌭:"
           counter={mul}
           setter={setMul}
           total={total}
