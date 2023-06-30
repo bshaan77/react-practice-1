@@ -112,7 +112,7 @@ const Glizzy: React.FC<GlizzyProps> = ({
               setter((counter) => 0);
             }}
           >
-            Add
+            Compute
           </button>
         </div>
       </div>
